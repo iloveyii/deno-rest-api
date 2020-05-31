@@ -49,11 +49,11 @@ export const createUser = async ({
   response: any;
 }) => {
   const body = await request.body();
-  const user = body.value.user;
+  const user = body && body.value && body.value.user ? body.value.user : null;
   log.info(JSON.stringify(user));
 
   // If body has data
-  if (body) {
+  if (user) {
     const id = users[users.length - 1].id + 1;
     user.id = id;
     users.push({ ...user });
