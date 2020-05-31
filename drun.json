@@ -1,0 +1,6 @@
+{
+  "entryPoint": "./first.ts",
+  "cwd": "./",
+  "excludes": ["./log.txt"],
+  "runtimeOptions": ["--allow-net", "--allow-read", "--allow-write"]
+}
