@@ -34,7 +34,7 @@ let logger;
 
 // get default logger
 logger = log.getLogger();
-logger.debug("fizz");
+logger.debug("first");
 
 log.debug("Hello world debug");
 log.info("Hello world");
