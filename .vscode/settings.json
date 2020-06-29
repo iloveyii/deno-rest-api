@@ -1,0 +1,5 @@
+{
+  "editor.fontSize": 15,
+  "deno.enable": true,
+  "editor.tabSize": 6
+}
